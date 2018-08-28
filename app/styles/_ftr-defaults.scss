@@ -1,0 +1,205 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.4
+}
+
+body {
+    font-family: "nexa", 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    overflow-x: hidden
+}
+
+.navy {
+    color: #3e6688;
+}
+
+.aqua1 {
+    color: #3bc1cd;
+}
+
+.aqua2 {
+    color: #75cede;
+}
+
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8rem;
+    color: inherit;
+}
+
+strong,
+.bold {
+    font-weight: bold;
+}
+
+hr {
+    border-color: #CECECE;
+    width: 100%;
+}
+
+hr.dotted {
+    border-style: dotted;
+}
+
+/* remember to define focus styles! */
+
+ :focus {
+    outline: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.btn-default {
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: #e0e0e0;
+    background-position: 0 -15px;
+}
+
+.btn-primary {
+    background-image: -webkit-linear-gradient(top, #bb0826 0, #9f1006 100%);
+    background-image: linear-gradient(to bottom, #bb0826 0, #9f1006 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-color: #ac0916;
+    background-repeat: repeat-x;
+    border-color: #8c0d04;
+    border-style: solid;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #8a0c03;
+    background-position: 0 -15px;
+}
+
+.btn-home,
+.sign-in .form-group input[type=submit] {
+    background: #3bc1cd none repeat scroll 0 0;
+    border: 1px solid #25abb7;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-decoration: none;
+    zoom: 1;
+    font-family: "nexa", Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-weight: normal;
+}
+
+.btn-home:hover,
+.sign-in .form-group input[type=submit]:hover,
+.btn-home:focus,
+.sign-in .form-group input[type=submit]:focus {
+    background-color: #25abb7;
+    background-position: 0 -15px;
+    color: #FFF;
+}
+
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.btn-home,
+.sign-in .form-group input[type=submit] {
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #FFF;
+    border-color: #ccc;
+    background: #dddddd;
+}
+/*
+* Row with equal height columns
+* --------------------------------------------------
+*/
+html {
+    font-size: 62.5%;
+    line-height: 1.4;
+}
+
+a,
+a:focus,
+a:hover {
+    outline: none;
+}
+
+sub,
+sup {
+    font-size: 50%;
+}
+
+sup {
+    top: -.75em;
+}

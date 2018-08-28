@@ -1,0 +1,222 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "ftr-defaults";
+
+$black: #000000;
+$white: #FFFFFF;
+
+$ftr-gray: #58595b;
+$ftr-red: #d9272d;
+
+$navy:#3e6688;
+$aqua-1: #3bc1cd;
+$aqua-2: #75cede;
+$marigold: #fcc549;
+
+$gray-1: #808285;
+$gray-2: #a7a9ac;
+$gray-3: #d1d3d4;
+$gray-4: #e6e7e8;
+
+$state-gray: #cccccc;
+
+$gray: $gray-2;
+//$ftr-red
+$z-521: $navy; // Copper
+$z-522: $aqua-1; // Vantage
+$z-523: $ftr-red; // FIOS
+$z-524: $gray-1; // Default
+
+.copper {
+  background: $z-521;
+  &.fb {
+    border: 2px solid $z-521;
+    background: $marigold;
+  }
+}
+.vantage {
+  background: $z-522;
+  &.fb {
+    border: 2px solid $z-522;
+    background: $marigold;
+  }
+}
+.fios {
+  background: $z-523;
+  &.fb {
+    border: 2px solid $z-523;
+    background: $marigold;
+  }
+}
+.facebook {
+  background: $marigold;
+}
+.default {
+  background: $z-524;
+}
+
+.sample-group {
+  margin-top: 20px;
+}
+.sample {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('./fonts/nexa.woff2') format('woff2'), url('../fonts/nexa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nexa bold';
+    src: url('./fonts/nexabold.woff2') format('woff2'), url('../fonts/nexabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-brand {
+  padding: 15px 0 0 0;
+}
+
+
+.map {
+  width: 760px;
+  margin: 0;
+  float:left;
+  @media (min-width:  1200px) {
+    width: 960px;
+  }
+}
+
+svg {
+  width: 100%;
+  min-height:100vh;
+}
+
+.state {
+  fill: $gray;
+  stroke: $gray-4;
+  stroke-width: .4px;
+  &:hover {
+    fill: lighten($gray, 20%);
+  }
+  &.active {
+    color:red;
+  }
+  &.zone-0 {
+    fill: lighten($gray-3, 13%);
+  }
+  &.zone-a {
+    fill: $state-gray; //#b2b2b2;
+  }
+  &.zone-b {
+    fill: $state-gray; //#9c9c9c;
+  }
+  &.zone-c {
+    fill: $state-gray; //#ebebeb;
+  }
+  &.zone-d {
+    fill: $state-gray; // #cccccc;
+  }
+  &.zone-e {
+    fill: $state-gray; //#e1e1e1;
+  }
+}
+
+.zip {
+  fill: $ftr-red;
+  &.z-521 {
+    fill: $z-521;
+  }
+  &.z-522 {
+    fill: $z-522;
+  }
+  &.z-523 {
+    fill: $z-523;
+  }
+  &.z-524 {
+    fill: $z-524;
+  }
+  &.fb-fans {
+    fill: $marigold;
+    &.z-521{
+      stroke: $z-521;
+      stroke-width: .3px;
+    }
+    &.z-522{
+      stroke: $z-522;
+      stroke-width: .3px;
+    }
+    &.z-523{
+      stroke: $z-523;
+      stroke-width: .3px;
+    }
+    &.z-524{
+      stroke: $z-524;
+      stroke-width: .3px;
+    }
+  }
+}
+
+.state-name {
+  fill: $white;
+  font-weight: bold;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+.info {
+  width: 210px;
+  float:left;
+ 	/*position: absolute;
+  top:0;
+  right: 0;*/
+	/*text-align: center;*/
+	/*width: 160px;
+	height: 200px;*/
+	padding: 2px;
+	font: 12px sans-serif;
+	background: white;
+	/*border: 1px solid $gray-2;*/
+	/*pointer-events: none;*/
+  @media (min-width:  1200px) {
+    width: 210px;
+  }
+}
+
+.list-group {
+  li {
+    text-transform: capitalize;
+    .fans-info {
+      text-transform: initial;
+    }
+  }
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  /*margin-top: -200px;*/
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #333;
+  animation: spinner .6s linear infinite;
+}

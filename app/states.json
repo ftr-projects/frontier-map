@@ -1,0 +1,385 @@
+{
+    "Alabama": {
+        "count": "0",
+        "name": "Alabama",
+        "abbr": "AL",
+        "area": "zone-b"
+    },
+    "Alaska": {
+        "count": "1",
+        "name": "Alaska",
+        "abbr": "AK",
+        "area": "zone-0"
+    },
+    "Arizona": {
+        "count": "2",
+        "name": "Arizona ",
+        "abbr": "AZ",
+        "area": "zone-a"
+    },
+    "Arkansas": {
+        "count": "3",
+        "name": "Arkansas",
+        "abbr": "AR",
+        "area": "zone-0"
+    },
+    "California": {
+        "count": "4",
+        "name": "California ",
+        "abbr": "CA",
+        "area": "zone-e"
+    },
+    "Colorado": {
+        "count": "5",
+        "name": "Colorado ",
+        "abbr": "CO",
+        "area": "zone-0"
+    },
+    "Connecticut": {
+        "count": "6",
+        "name": "Connecticut",
+        "abbr": "CT",
+        "area": "zone-e"
+    },
+    "Delaware": {
+        "count": "7",
+        "name": "Delaware",
+        "abbr": "DE",
+        "area": "zone-0"
+    },
+    "District of Columbia": {
+        "count": "8",
+        "name": "District of Columbia",
+        "abbr": "DC",
+        "area": "zone-0"
+    },
+    "Florida": {
+        "count": "9",
+        "name": "Florida",
+        "abbr": "FL",
+        "area": "zone-b"
+    },
+    "Georgia": {
+        "count": "10",
+        "name": "Georgia",
+        "abbr": "GA",
+        "area": "zone-b"
+    },
+    "Hawaii": {
+        "count": "11",
+        "name": "Hawaii",
+        "abbr": "HI",
+        "area": "zone-0"
+    },
+    "Idaho": {
+        "count": "12",
+        "name": "Idaho",
+        "abbr": "ID",
+        "area": "zone-d"
+    },
+    "Illinois": {
+        "count": "13",
+        "name": "Illinois",
+        "abbr": "IL",
+        "area": "zone-c"
+    },
+    "Indiana": {
+        "count": "14",
+        "name": "Indiana",
+        "abbr": "IN",
+        "area": "zone-c"
+    },
+    "Iowa": {
+        "count": "15",
+        "name": "Iowa",
+        "abbr": "IA",
+        "area": "zone-c"
+    },
+    "Kansas": {
+        "count": "16",
+        "name": "Kansas",
+        "abbr": "KS",
+        "area": "zone-0"
+    },
+    "Kentucky": {
+        "count": "17",
+        "name": "Kentucky",
+        "abbr": "KY",
+        "area": "zone-0"
+    },
+    "Louisiana": {
+        "count": "18",
+        "name": "Louisiana",
+        "abbr": "LA",
+        "area": "zone-0"
+    },
+    "Maine": {
+        "count": "19",
+        "name": "Maine",
+        "abbr": "ME",
+        "area": "zone-0"
+    },
+    "Maryland": {
+        "count": "20",
+        "name": "Maryland",
+        "abbr": "MD",
+        "area": "zone-0"
+    },
+    "Massachusetts": {
+        "count": "21",
+        "name": "Massachusetts",
+        "abbr": "MA",
+        "area": "zone-0"
+    },
+    "Michigan": {
+        "count": "22",
+        "name": "Michigan",
+        "abbr": "MI",
+        "area": "zone-a"
+    },
+    "Minnesota": {
+        "count": "23",
+        "name": "Minnesota",
+        "abbr": "MN",
+        "area": "zone-c"
+    },
+    "Mississippi": {
+        "count": "24",
+        "name": "Mississippi",
+        "abbr": "MS",
+        "area": "zone-b"
+    },
+    "Missouri": {
+        "count": "25",
+        "name": "Missouri",
+        "abbr": "MO",
+        "area": "zone-0"
+    },
+    "Montana": {
+        "count": "26",
+        "name": "Montana",
+        "abbr": "MT",
+        "area": "zone-d"
+    },
+    "Nebraska": {
+        "count": "27",
+        "name": "Nebraska",
+        "abbr": "NE",
+        "area": "zone-c"
+    },
+    "Nevada": {
+        "count": "28",
+        "name": "Nevada",
+        "abbr": "NV",
+        "area": "zone-a"
+    },
+    "New Hampshire": {
+        "count": "29",
+        "name": "New Hampshire",
+        "abbr": "NH",
+        "area": "zone-0"
+    },
+    "New Jersey": {
+        "count": "30",
+        "name": "New Jersey",
+        "abbr": "NJ",
+        "area": "zone-0"
+    },
+    "New Mexico": {
+        "count": "31",
+        "name": "New Mexico",
+        "abbr": "NM",
+        "area": "zone-a"
+    },
+    "New York": {
+        "count": "32",
+        "name": "New York",
+        "abbr": "NY",
+        "area": "zone-e"
+    },
+    "North Carolina": {
+        "count": "33",
+        "name": "North Carolina",
+        "abbr": "NC",
+        "area": "zone-b"
+    },
+    "North Dakota": {
+        "count": "34",
+        "name": "North Dakota",
+        "abbr": "ND",
+        "area": "zone-0"
+    },
+    "Ohio": {
+        "count": "35",
+        "name": "Ohio",
+        "abbr": "OH",
+        "area": "zone-a"
+    },
+    "Oklahoma": {
+        "count": "36",
+        "name": "Oklahoma",
+        "abbr": "OK",
+        "area": "zone-0"
+    },
+    "Oregon": {
+        "count": "37",
+        "name": "Oregon",
+        "abbr": "OR",
+        "area": "zone-d"
+    },
+    "Pennsylvania": {
+        "count": "38",
+        "name": "Pennsylvania",
+        "abbr": "PA",
+        "area": "zone-e"
+    },
+    "Rhode Island": {
+        "count": "39",
+        "name": "Rhode Island",
+        "abbr": "RI",
+        "area": "zone-0"
+    },
+    "South Carolina": {
+        "count": "40",
+        "name": "South Carolina",
+        "abbr": "SC",
+        "area": "zone-b"
+    },
+    "South Dakota": {
+        "count": "41",
+        "name": "South Dakota",
+        "abbr": "SD",
+        "area": "zone-0"
+    },
+    "Tennessee": {
+        "count": "42",
+        "name": "Tennessee",
+        "abbr": "TN",
+        "area": "zone-b"
+    },
+    "Texas": {
+        "count": "43",
+        "name": "Texas",
+        "abbr": "TX",
+        "area": "zone-a"
+    },
+    "Utah": {
+        "count": "44",
+        "name": "Utah",
+        "abbr": "UT",
+        "area": "zone-a"
+    },
+    "Vermont": {
+        "count": "45",
+        "name": "Vermont",
+        "abbr": "VT",
+        "area": "zone-0"
+    },
+    "Virginia": {
+        "count": "46",
+        "name": "Virginia ",
+        "abbr": "VA",
+        "area": "zone-0"
+    },
+    "Washington": {
+        "count": "47",
+        "name": "Washington",
+        "abbr": "WA",
+        "area": "zone-d"
+    },
+    "West Virginia": {
+        "count": "48",
+        "name": "West Virginia",
+        "abbr": "WV",
+        "area": "zone-a"
+    },
+    "Wisconsin": {
+        "count": "49",
+        "name": "Wisconsin",
+        "abbr": "WI",
+        "area": "zone-c"
+    },
+    "Wyoming": {
+        "count": "50",
+        "name": "Wyoming",
+        "abbr": "WY",
+        "area": "zone-0"
+    }    ,
+    "Puerto Rico": {
+        "count": "50",
+        "name": "Puerto Rico",
+        "abbr": "",
+        "area": "zone-a"
+    },
+    "U.S. Virgin Islands": {
+      "abbr": ""
+    },
+    "cities": [
+      {
+        "range": [60007, 60827],
+        "name": "Chicago",
+        "state": "Illinois",
+        "fans": "250"
+      },{
+        "range": [43002, 43299],
+        "name": "Columbus",
+        "state": "Ohio",
+        "fans": "1876"
+      },{
+        "range": [75001, 75398],
+        "name": "Dallas",
+        "state": "Texas",
+        "fans": "1920"
+      },{
+        "range": [27503, 27722],
+        "name": "Durham",
+        "state": "North Carolina",
+        "fans": "1170"
+      },{
+        "range": [46774, 46899],
+        "name": "Fort Wayne",
+        "state": "Indiana",
+        "fans": "4010"
+      },{
+        "range": [77001, 77598],
+        "name": "Houston",
+        "state": "Texas",
+        "fans": 1967
+      },{
+        "range": [46201, 46298],
+        "name": "Indianapolis",
+        "state": "Indiana",
+        "fans": "1683"
+      },{
+        "range": [90001, 91608],
+        "name": "Los Angeles",
+        "state": "California",
+        "fans": "2520"
+      },{
+        "range": [49440, 49445],
+        "name": "Muskegon",
+        "state": "Michigan",
+        "fans": "1294"
+      },{
+        "range": [10001, 11697],
+        "name": "New York",
+        "state": "New York",
+        "fans": "2558"
+      },{
+        "range": [97034, 97299],
+        "name": "Portland",
+        "state": "Oregon",
+        "fans": "1310"
+      },{
+        "range": [14602, 14694],
+        "name": "Rochester",
+        "state": "New York",
+        "fans": "3938"
+      },{
+        "range": [33601, 33694],
+        "name": "Tampa",
+        "state": "Florida",
+        "fans": "1942"
+      }
+    ]
+}
